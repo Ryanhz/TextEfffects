@@ -14,6 +14,9 @@
 		5E0E5F641D6EE9030039CCF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0E5F621D6EE9030039CCF3 /* LaunchScreen.storyboard */; };
 		5E0E5F6F1D6EE9030039CCF3 /* TextEffectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0E5F6E1D6EE9030039CCF3 /* TextEffectsTests.swift */; };
 		5E0E5F7A1D6EE9030039CCF3 /* TextEffectsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0E5F791D6EE9030039CCF3 /* TextEffectsUITests.swift */; };
+		5E0E5F881D6EE93D0039CCF3 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E0E5F871D6EE93D0039CCF3 /* 2.jpg */; };
+		5E0E5F8B1D6EE9950039CCF3 /* TextAnimationLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0E5F8A1D6EE9950039CCF3 /* TextAnimationLabel.swift */; };
+		5E0E5F8D1D6FDF1D0039CCF3 /* TextLayerAniamtion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0E5F8C1D6FDF1D0039CCF3 /* TextLayerAniamtion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		5E0E5F751D6EE9030039CCF3 /* TextEffectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextEffectsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E0E5F791D6EE9030039CCF3 /* TextEffectsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEffectsUITests.swift; sourceTree = "<group>"; };
 		5E0E5F7B1D6EE9030039CCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E0E5F871D6EE93D0039CCF3 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		5E0E5F8A1D6EE9950039CCF3 /* TextAnimationLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextAnimationLabel.swift; sourceTree = "<group>"; };
+		5E0E5F8C1D6FDF1D0039CCF3 /* TextLayerAniamtion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextLayerAniamtion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		5E0E5F4D1D6EE9030039CCF3 = {
 			isa = PBXGroup;
 			children = (
+				5E0E5F871D6EE93D0039CCF3 /* 2.jpg */,
 				5E0E5F581D6EE9030039CCF3 /* TextEffects */,
 				5E0E5F6D1D6EE9030039CCF3 /* TextEffectsTests */,
 				5E0E5F781D6EE9030039CCF3 /* TextEffectsUITests */,
@@ -97,6 +104,7 @@
 		5E0E5F581D6EE9030039CCF3 /* TextEffects */ = {
 			isa = PBXGroup;
 			children = (
+				5E0E5F891D6EE9500039CCF3 /* TextEffects */,
 				5E0E5F591D6EE9030039CCF3 /* AppDelegate.swift */,
 				5E0E5F5B1D6EE9030039CCF3 /* ViewController.swift */,
 				5E0E5F5D1D6EE9030039CCF3 /* Main.storyboard */,
@@ -123,6 +131,15 @@
 				5E0E5F7B1D6EE9030039CCF3 /* Info.plist */,
 			);
 			path = TextEffectsUITests;
+			sourceTree = "<group>";
+		};
+		5E0E5F891D6EE9500039CCF3 /* TextEffects */ = {
+			isa = PBXGroup;
+			children = (
+				5E0E5F8A1D6EE9950039CCF3 /* TextAnimationLabel.swift */,
+				5E0E5F8C1D6FDF1D0039CCF3 /* TextLayerAniamtion.swift */,
+			);
+			path = TextEffects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +248,7 @@
 			files = (
 				5E0E5F641D6EE9030039CCF3 /* LaunchScreen.storyboard in Resources */,
 				5E0E5F611D6EE9030039CCF3 /* Assets.xcassets in Resources */,
+				5E0E5F881D6EE93D0039CCF3 /* 2.jpg in Resources */,
 				5E0E5F5F1D6EE9030039CCF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E0E5F8B1D6EE9950039CCF3 /* TextAnimationLabel.swift in Sources */,
+				5E0E5F8D1D6FDF1D0039CCF3 /* TextLayerAniamtion.swift in Sources */,
 				5E0E5F5C1D6EE9030039CCF3 /* ViewController.swift in Sources */,
 				5E0E5F5A1D6EE9030039CCF3 /* AppDelegate.swift in Sources */,
 			);
